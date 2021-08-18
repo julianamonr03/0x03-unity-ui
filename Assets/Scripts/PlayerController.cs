@@ -102,6 +102,6 @@ public class PlayerController : MonoBehaviour
     // Call method with StartCoroutine(LoadScene(3))
     IEnumerator LoadScene(float seconds)
     {
-        yield return new WaitForSeconds(seconds);
+        yield return new WaitForSeconds(5);
     }
 }

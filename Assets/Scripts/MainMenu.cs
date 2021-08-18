@@ -19,7 +19,7 @@ public class MainMenu : MonoBehaviour
             goalMat.color = Color.blue;
         }
         Scene scene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(scene.name);
+        SceneManager.LoadScene("maze");
     }
 
     public void QuitMaze()
